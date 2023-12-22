@@ -21,11 +21,11 @@ def clone_repositories(urls, destination_folder):
 if __name__ == "__main__":
     # List of Git URLs you want to clone
     git_urls = [
-        "https://github.com/fuzzdb-project/fuzzdb",
-        "https://github.com/Bo0oM/fuzz.txt",
-        '''
-        "https://github.com/arbazkiraak/LinksDumper",
-       
+        "https://github.com/s0md3v/Corsy",
+        "https://github.com/RUB-NDS/CORStest",
+        
+        "https://github.com/Shivangx01b/CorsMe",
+       '''
         "https://github.com/zseano/JS-Scan",
         
         "https://github.com/projectdiscovery/subfinder",
@@ -33,7 +33,7 @@ if __name__ == "__main__":
     ]
 
     # Folder where you want to clone the repositories
-    destination_folder = "/home/kali/Desktop/Hacking Tools/Recon/Fuzzing"
+    destination_folder = "/home/kali/Desktop/ShamlawiTools/Hacking Tools/Exploitation/CORS Misconfiguration/"
 
     # Clone the repositories
     clone_repositories(git_urls, destination_folder)
